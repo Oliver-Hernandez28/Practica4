@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocales o consonantes</title>
+</head>
+<body>
+    <form>
+        <p>Ingresa una letra para verificar si es vocal o consonante</p>
+            <input type="text" id="let" name="let" placeholder="Ingresa una letra" requerid>
+            <input type="submit" onclick="validar();"></button>
+    </form>
+        <script>
+            function validar(){
+                let1=document.getElementById(let).value();
+                    if(let1==" "){
+                        alert("Ingresa una letra");
+                                }
+                     else if(let1==a||let1==e||let1==i||let1==o||let1==u){
+                        alert("La letra es una Vocal");
+                                }
+                            else{
+                                alert("La letra es una Consonante");
+                            }
+            }
+        </script>
+</body>
+</html>
